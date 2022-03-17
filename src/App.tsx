@@ -1,10 +1,10 @@
-import "./App.css";
-import Autocomplete from "./components/autocomplete/Autocomplete";
+import './App.css';
+import GooglePlacesAutocomplete from './components/google-places-autocomplete/GooglePlacesAutocomplete';
 
 function App() {
   return (
     <div className="App">
-      <Autocomplete />
+      <GooglePlacesAutocomplete />
     </div>
   );
 }
